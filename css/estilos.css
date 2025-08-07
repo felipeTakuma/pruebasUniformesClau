@@ -197,6 +197,9 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
+.swiper-slide {
+  background: rgba(255, 0, 0, 0.2); /* rojo claro */
+}
 .swiper-slide img {
   width: 100%;
   max-width: 250px;
