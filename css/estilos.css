@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
   }
+body{
+  outline: 1px solid red;
+}
 .container{
     justify-content: center;
     width: clamp(300px, 80%, 1400px);
