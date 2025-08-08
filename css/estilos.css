@@ -38,8 +38,8 @@ body{
 }
 .whats-header{
     position: absolute;
-    right: 0.5rem;
-    top: 22%;
+    right: 0.8rem;
+    top: 50%;
     transform: translateY(-50%);
     z-index: 999;
 }
@@ -80,6 +80,8 @@ body{
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  flex-direction: column;
+  align-items: center;
 }
 .modulo_resenas{
 display: flex;
