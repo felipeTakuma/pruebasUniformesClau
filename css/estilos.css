@@ -38,8 +38,8 @@ body{
 }
 .whats-header{
     position: absolute;
-    right: 0.8rem;
-    top: 50%;
+    right: 0.5rem;
+    top: 59%;
     transform: translateY(-50%);
     z-index: 999;
 }
