@@ -83,6 +83,23 @@ body{
   flex-direction: column;
   align-items: center;
 }
+.detalles_talla summary{
+border: 1px solid #000000;
+padding: 12px 20px;
+font-size: 16px;
+font-weight: 600;
+border-radius: 2px;
+cursor: pointer;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+list-style: none;
+}
+.detalles_talla details[open] summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.detalles_talla summary::-webkit-details-marker {
+  display: none;
+}
 .image-grid{
   display: flex;
   gap: 15px;
