@@ -125,6 +125,50 @@ list-style: none;
     gap: 10px;
   }
 }
+.catalogo-selector{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.catalogo-card{
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+.mPicture img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.mOver{
+  position: absolute;
+  bottom: 2vw;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.mBtnHover{
+  background-color: rgba(0,0,0, 0.6);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.mBtnHover:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*Media query para mejorar espaciado en las pantallas pequeños*/
+@media (max-width:575px){
+  .mOver{
+    bottom: 10%;
+  }
+  .mBtnHover{
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
 .modulo_resenas{
 display: flex;
 flex-direction: column;
