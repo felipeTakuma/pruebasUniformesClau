@@ -150,17 +150,15 @@ list-style: none;
   max-width: 350px;
   width: 100%;
   height: auto;
-  display: inline-block;
+  display: block;
   border-radius: 12px;
 }
 .mOver{
   position: absolute;
-  bottom: 2vw;
-  left: 0;
-  right: 0;
+  bottom: 10%;
+  left: 50%;
   transform: translate(-50%);
   text-align: center;
-  list-style: none;
   z-index: 2;
 }
 .mBtnHover{
@@ -169,8 +167,9 @@ list-style: none;
   color: #000;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
-  border-radius: 2px;
+  border-radius: 3px;
   transition: background-color 0.3s ease;
+  list-style: none;
 }
 .mBtnHover:hover{
   background-color: rgba(255, 255, 255, 0.968);
@@ -178,7 +177,7 @@ list-style: none;
 /*Media query para mejorar espaciado en las pantallas pequeños*/
 @media (max-width:575px){
   .mOver{
-    bottom: 10%;
+    bottom: 5%;
   }
   .mBtnHover{
     font-size: 1rem;
