@@ -129,6 +129,7 @@ list-style: none;
   }
 }
 .catalogo-selector{
+  max-width: 100%;
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -163,11 +164,12 @@ list-style: none;
 }
 .mBtnHover{
   font-family: "Sour Gummy", sans-serif;
+  font-size: 2rem;
   background-color: rgb(255, 255, 255);
   color: #000;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
-  border-radius: 3px;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
   list-style: none;
 }
@@ -176,6 +178,10 @@ list-style: none;
 }
 /*Media query para mejorar espaciado en las pantallas pequeños*/
 @media (max-width:575px){
+  .catalogo-card{
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
   .mOver{
     bottom: 5%;
   }
