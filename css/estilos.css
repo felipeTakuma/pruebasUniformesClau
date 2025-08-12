@@ -129,31 +129,39 @@ list-style: none;
   }
 }
 .catalogo-selector{
+  gap: 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 .catalogo-card{
+  flex: 0 0 48%; /* Ocupa el 48% del ancho del contenedor */
+  max-width: 48%;
+  box-sizing: border-box;
   position: relative;
   overflow: hidden;
   padding: 0;
-  gap: 4px;
+  border-radius: 11px;
+  margin-bottom: 1rem;
 }
 .mPicture img{
   max-width: 350px;
   width: 100%;
   height: auto;
-  display: block;
-  border-radius: 8px;
+  display: inline-block;
+  border-radius: 12px;
 }
 .mOver{
   position: absolute;
   bottom: 2vw;
   left: 0;
   right: 0;
+  transform: translate(-50%);
   text-align: center;
   list-style: none;
+  z-index: 2;
 }
 .mBtnHover{
   font-family: "Sour Gummy", sans-serif;
@@ -175,6 +183,12 @@ list-style: none;
   .mBtnHover{
     font-size: 1rem;
     padding: 0.6rem 1.2rem;
+  }
+}
+@media (max-width: 320px){
+  .catalogo-card{
+    flex: 0 0 100%; /* Ocupa el 100% del ancho del contenedor */
+    max-width: 100%;
   }
 }
 .modulo_resenas{
