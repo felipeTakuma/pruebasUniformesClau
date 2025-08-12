@@ -138,6 +138,7 @@ list-style: none;
   position: relative;
   overflow: hidden;
   padding: 0;
+  gap: 4px;
 }
 .mPicture img{
   max-width: 350px;
@@ -145,7 +146,6 @@ list-style: none;
   height: auto;
   display: block;
   border-radius: 8px;
-  gap: 6px;
 }
 .mOver{
   position: absolute;
