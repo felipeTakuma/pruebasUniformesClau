@@ -137,6 +137,7 @@ list-style: none;
   padding: 0;
 }
 .mPicture img{
+  max-width: 350px;
   width: 100%;
   height: auto;
   display: block;
@@ -149,15 +150,15 @@ list-style: none;
   text-align: center;
 }
 .mBtnHover{
-  background-color: rgba(0,0,0, 0.6);
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 2px;
   transition: background-color 0.3s ease;
 }
 .mBtnHover:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.968);
 }
 /*Media query para mejorar espaciado en las pantallas pequeños*/
 @media (max-width:575px){
