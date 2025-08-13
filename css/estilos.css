@@ -87,7 +87,7 @@ body{
   margin-bottom: 18px;
 }
 .detalles_talla summary{
-border: none;
+border: 1px solid #98989887;
 padding: 12px 20px;
 font-size: 16px;
 font-weight: 600;
@@ -174,7 +174,8 @@ dentro de este, ocupara la mitad y asi mismo las img*/
   border-radius: 8px;
   transition: background-color 0.3s ease;
   list-style: none;
-  border: none;
+  border: 1px solid #98989887;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.5);
 }
 .mBtnHover:hover{
   background-color: rgba(255, 255, 255, 0.968);
