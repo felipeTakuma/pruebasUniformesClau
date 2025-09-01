@@ -26,6 +26,7 @@ body{
     padding-bottom: 0;
     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
     border-bottom: 2px solid #ccc;
+    z-index: 1000;
 }
 .header h1{
     color: white;

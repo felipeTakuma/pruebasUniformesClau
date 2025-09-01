@@ -13,12 +13,10 @@ body{
     text-align: center;
     font-family: "Sour Gummy", sans-serif;
     font-style: italic;
-    margin-top: 15px;
-    padding-top: 37px;
 }
 .header{
     display: flex;
-    position: fixed;
+    position: relative;
     align-items: center;
     width: 100%;
     font-family: "Sour Gummy", sans-serif;
