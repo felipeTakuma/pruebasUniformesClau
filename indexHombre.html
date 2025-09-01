@@ -232,17 +232,16 @@
     });
     function enviarWhatsApp(imagenURL) {
   // Obtiene el path base actual (incluye subcarpeta si estás en pruebasUniformesClau)
-  const basePath = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '');
+    const basePath = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '');
 
   // Construye el mensaje con el link completo de la imagen
-  const mensaje = encodeURIComponent(
+    const mensaje = encodeURIComponent(
     `Hola, estoy interesado en este uniforme:\n${basePath}/${imagenURL}`
-  );
+    );
 
   // Abre WhatsApp Web con el mensaje prellenado
-  window.open(`https://wa.me/573203341083?text=${mensaje}`, "_blank");
+    window.open(`https://wa.me/573203341083?text=${mensaje}`, "_blank");
 }
-
 </script>
 </body>
 </html>
