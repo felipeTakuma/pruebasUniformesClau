@@ -46,12 +46,10 @@ body{
     width: 35px;
     height: auto;
     transition: 0.3s;
-
-    
 }
 .whats-header img:hover{
     transform: scale(1.2);
-}   
+}    
 .modulo_principal p{
     font-size: 35px;
 }
@@ -61,6 +59,26 @@ body{
     gap: 85px;
     padding-top: 9px;
     list-style: none;    
+}
+.btn-whatsapp{
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 1em auto;
+  padding: 0.55em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #5468ff, #5adaff);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-whatsapp:active{
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 .container p{
   background: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
