@@ -87,13 +87,15 @@ body{
   margin-top: 18px;
 }
 .detalles_talla summary{
-border: 1px solid #98989887;
+border: none;
 padding: 12px 20px;
 font-size: 16px;
 font-weight: 600;
-border-radius: 8px;
+border-radius: 16px;
 cursor: pointer;
-box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+background: linear-gradient(135deg, #5468ff, #5adaff);
+box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+color: #fff;
 list-style: none;
 }
 .detalles_talla details[open] summary {
@@ -168,19 +170,19 @@ dentro de este, ocupara la mitad y asi mismo las img*/
   all: unset;
   font-family: "Sour Gummy", sans-serif;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255);
-  color: #000;
+  background: linear-gradient(135deg, #5468ff, #5adaff);
+  color: #fff;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 16px;
   transition: background-color 0.3s ease;
   list-style: none;
-  border: 1px solid #98989887;
-  box-shadow: 0 5px 7px rgba(0,0,0,0.5);
+  border: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
 }
-.mBtnHover:hover{
-  background-color: rgba(255, 255, 255, 0.968);
-}
+.mBtnHover:active{
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);}
 /*Media query para mejorar espaciado en las pantallas pequeños*/
 @media (max-width:725px){
   .catalogo-card{
