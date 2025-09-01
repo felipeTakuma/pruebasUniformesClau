@@ -159,7 +159,7 @@
     botonMenu.addEventListener('click', (e) => {
         e.stopPropagation(); // Evita que el boton se propague
         const estado = menuDesplegable.style.display;
-        menuDesplegable.style.display = estado === 'block' ? 'none' : 'block'
+        menuDesplegable.style.display = estado === 'block' ? 'none' : 'block';
     });
     document.addEventListener('click', (e) => {
         // Cierra el menú si se hace clic fuera de él

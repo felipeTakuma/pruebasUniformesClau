@@ -208,6 +208,12 @@
         menuDesplegable.style.display = 
             menuDesplegable.style.display === 'block' ? 'none' : 'block';
     });
+    document.addEventListener('click', (e)=>{
+        //cierra el menu si se click por fuera
+        if(!menuDesplegable.contains(e.target) && e.target !==botonMenu){
+            menuDesplegable.style.display = 'none';
+        }
+    });
     function enviarWhatsApp(imagenURL) {
   // Obtiene el path base actual (incluye subcarpeta si estás en pruebasUniformesClau)
     const basePath = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '');
