@@ -60,7 +60,7 @@ body{
     padding-top: 9px;
     list-style: none;    
 }
-.tarjeta-uniforme button {
+.btn-whatsapp {
   display: block;
   width: 100%;
   max-width: 320px;
@@ -76,7 +76,7 @@ body{
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.tarjeta-uniforme button:active {
+.btn-whatsapp:active {
   transform: scale(0.98);
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
