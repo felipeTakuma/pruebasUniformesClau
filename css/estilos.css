@@ -149,6 +149,7 @@ dentro de este, ocupara la mitad y asi mismo las img*/
   border-radius: 11px;
   margin-bottom: 1rem;
 }
+
 .mPicture img{
   width: 100%;
   height: auto;
@@ -200,11 +201,7 @@ dentro de este, ocupara la mitad y asi mismo las img*/
     max-width: 100%;
   }
 }
-.modulo_resenas{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+
 .reviews-slider{
   width: 100%;
   max-width: 500px;

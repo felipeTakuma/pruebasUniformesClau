@@ -60,6 +60,26 @@ body{
     padding-top: 9px;
     list-style: none;    
 }
+.tarjeta-uniforme button {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 1em auto;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #5468ff, #5adaff);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tarjeta-uniforme button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
 .container p{
   background: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   -webkit-background-clip: text;
