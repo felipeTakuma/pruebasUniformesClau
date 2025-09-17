@@ -84,6 +84,7 @@ body{
 .icon-w{
   width: 20px;
   height: auto;
+  margin-left: 8px;
   vertical-align: middle;
 }
 .container p{
