@@ -81,6 +81,11 @@ body{
   transform: scale(0.98);
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
+.icon-w{
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
 .container p{
   background: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   -webkit-background-clip: text;
